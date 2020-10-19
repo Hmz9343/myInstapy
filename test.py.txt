@@ -1,0 +1,5 @@
+from selenium import webdriver
+
+browser = webdriver.Firefox(executable_path=r'D:\instapy-quickstart-master\geckodriver.exe')
+browser.get("https://www.google.com/")
+print("I am on this website ::::: YOYO XOXO , ",browser.title)
